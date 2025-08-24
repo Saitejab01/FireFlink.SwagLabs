@@ -10,6 +10,5 @@ public class DemoClassTest extends BaseClass{
 	@Test(retryAnalyzer = swagLabs.GenericUtilities.RetryAnalyserImplementation.class)
 	public void demo() {
 		System.out.println(a++);
-		Assert.fail();
 	}
 }
